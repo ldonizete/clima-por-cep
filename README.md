@@ -4,9 +4,10 @@ API em Go que recebe um CEP, descobre a cidade pelo [ViaCEP](https://viacep.com.
 
 ## URL em produção (Google Cloud Run)
 
-> **TODO:** preencher após o deploy.
->
-> `https://SERVICO-HASH-rj.a.run.app/weather/01001000`
+https://clima-por-cep-640606615516.southamerica-east1.run.app
+
+Exemplo de consulta:
+https://clima-por-cep-640606615516.southamerica-east1.run.app/weather/01001000
 
 ## Contrato
 
@@ -22,7 +23,7 @@ API em Go que recebe um CEP, descobre a cidade pelo [ViaCEP](https://viacep.com.
 Conversões: `F = C × 1.8 + 32` e `K = C + 273`, arredondadas para 2 casas.
 
 ```bash
-curl https://SERVICO-HASH-rj.a.run.app/weather/01001000
+curl https://clima-por-cep-640606615516.southamerica-east1.run.app/weather/01001000
 ```
 
 ## Rodando localmente com Docker
